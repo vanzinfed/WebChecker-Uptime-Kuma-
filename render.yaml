@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: uptime-kuma
-    env: docker
-    dockerfilePath: ./docker/dockerfile
-    plan: free
-    autoDeploy: true
